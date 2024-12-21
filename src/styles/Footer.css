@@ -1,0 +1,36 @@
+
+.footer {
+  background-color: #222;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: left;
+}
+
+.footer-section {
+  flex: 1 1 200px;
+  margin: 10px;
+}
+
+.footer-section h2, .footer-section h3 {
+  margin: 10px 0;
+}
+
+.footer-section p, .footer-section ul {
+  margin: 5px 0;
+}
+
+.footer-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 5px 0;
+}
+
+.footer-section.contact p, .footer-section.visit p {
+  margin: 2px 0;
+}

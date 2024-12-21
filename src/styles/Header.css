@@ -1,0 +1,32 @@
+
+header {
+  background-image: url(../images/fondo11.png);
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  flex: 1; 
+}
+
+nav a:hover {
+  background-color: lightslategrey;
+  color: #ddd;
+}
